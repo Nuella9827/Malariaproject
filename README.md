@@ -20,7 +20,9 @@ These KPIs provide a quick, high-level summary of the malaria situation in Niger
 
 ### 1. **Filled Map: State and Cases per 1,000**
 - Shows malaria cases per 1,000 people across Nigerian states.
-- **Darker shades** highlight states with higher case rates (hotspots).
+- **Green** highlight states with higher case rates (hotspots).
+-  **Yellow** highlight states with mid case rates.
+-  - **Red** highlight states with lower case rates.
 - Helps decision-makers target high-burden areas.
 
 ---
@@ -57,7 +59,7 @@ The dataset used in this project was self-generated for learning purposes.
 | Deaths           | Malaria-related deaths                  |
 | Cases_per_1k      | Cases per 1,000 population (calculated) |
 
-The dataset is available as `malaria_impact_in_nigeria.csv` in this repository.
+The dataset is available as `malariaproject.xlsx` in this repository.
 
 ---
 
@@ -76,7 +78,7 @@ The dataset is available as `malaria_impact_in_nigeria.csv` in this repository.
 ---
 
 ## Screenshot
-![Malaria Impact Tracker Dashboard](path-to-screenshot.png)
+![Malaria Impact Tracker Dashboard](IMG_7488)
 
 ---
 
