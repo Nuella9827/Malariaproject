@@ -1,84 +1,42 @@
 
 # Malaria Impact Tracker in Nigeria (Power BI)
 
-## Overview
-This project analyzes malaria data across Nigerian states using **Power BI** to identify hotspots, track trends over time, and forecast future malaria cases.  
-The goal is to support public health planning and intervention strategies with clear, interactive visuals.
+Interactive Power BI dashboard that maps malaria burden across Nigerian states, tracks trends over time and forecasts cases to 2035.
+
+![Malaria Impact Tracker dashboard](IMG_7488)
+
+
+## Problem
+Public-health teams need to know **where** malaria burden is highest and **how** it is changing, so they can target interventions and plan resources.
+
+## Data
+- Learning dataset (self-generated for practice): `Malaria_Prediction_Ready_Nigeria.xlsx`
+- Columns: State, Year, Malaria_Cases, Deaths, Cases_per_1k
+
+## Approach
+1. Cleaned and shaped the data in **Power Query** (types, state names, calculated cases per 1,000 people).
+2. Built KPI cards: total cases, total deaths, cases per 1,000 people.
+3. Filled map of cases per 1,000 by state to show hotspots.
+4. Line chart of average cases by year to show the trend.
+5. Power BI forecast to 2035 with a confidence interval.
+6. Year and State slicers for interactive filtering.
+
+## Key results
+- Headline KPIs on the dataset: **74M total cases** and **416K deaths**.
+- Hotspot map highlights the states with the highest cases per 1,000 people.
+- <!-- Add 1–2 findings from your dashboard here, e.g. "The top 3 states by cases per 1,000 were ..." -->
+
+## Tools
+Power BI Desktop · Power Query · Excel
+
+## How to use
+1. Download `Improved Malaria Impact Tracker in Nigeria.pbix`.
+2. Open it in Power BI Desktop (free).
+3. Use the Year and State slicers to explore.
 
 ---
+**Emmanuella Ukutegbe** · Data Analyst · [LinkedIn](https://www.linkedin.com/in/emmanuella-ukutegbe/) · ellaukutegbe@gmail.com
 
-## Key Metrics (KPIs)
-- **Total Malaria Cases:** 74M  
-- **Total Deaths:** 416K  
-- **Cases per 1,000 People:** Calculated per state for hotspot analysis  
-
-These KPIs provide a quick, high-level summary of the malaria situation in Nigeria.
-
----
-
-## Visualizations
-
-### 1. **Filled Map: State and Cases per 1,000**
-- Shows malaria cases per 1,000 people across Nigerian states.
-- **Green** highlight states with higher case rates (hotspots).
--  **Yellow** highlight states with mid case rates.
-- **Red** highlight states with lower case rates.
-- Helps decision-makers target high-burden areas.
-
----
-
-### 2. **Line Chart: Average Malaria Cases by Year**
-- Displays malaria case trends year-over-year.
-- Useful for analyzing the effectiveness of interventions over time.
-
----
-
-### 3. **Forecast Chart: Malaria Cases to 2035**
-- Predicts malaria case trends into the future based on historical data.
-- Includes a **confidence interval** to show the uncertainty range.
-- Supports forward-looking health planning.
-
----
-
-## Features
-- **Interactive filters**: Filter data by Year or State.
-- **Geospatial Mapping**: Hotspot analysis using Filled Maps
-- **Forecasting**: Power BI’s forecasting tool predicts future case trends.
-- **KPIs**: Key metrics summarized at the top for quick insights.
-
----
-
-## Dataset
-The dataset used in this project was self-generated for learning purposes.
-
-| Column Name      | Description                             |
-|------------------|-----------------------------------------|
-| State            | Nigerian state name                     |
-| Year             | Reporting year                          |
-| Malaria_Cases     | Total malaria cases reported            |
-| Deaths           | Malaria-related deaths                  |
-| Cases_per_1k      | Cases per 1,000  
-
-The dataset is available as `Malaria_Prediction_Ready_Nigeria.xlsx` in this repository.
-
----
-
-## Tools Used
-- **Power BI Desktop**: Visualization and forecasting  
-- **Power Query**: Data cleaning and transformation  
-- **GitHub**: For version control and sharing  
-
----
-
-## How to Use
-1. Clone or download this repository.
-2. Open the `.pbix` file in **Power BI Desktop**.
-3. Use the slicers to explore malaria data by state and year.
-
----
-
-## Screenshot
-![Malaria Impact Tracker Dashboard](IMG_7488)
 
 ---
 
