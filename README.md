@@ -23,14 +23,14 @@ Public-health teams need to know **where** malaria burden is highest and **how**
 
 ## Key results
 - Headline KPIs on the dataset: **74M total cases** and **416K deaths**.
-- Hotspot map highlights the states with the highest cases per 1,000 people.
-- <!-- Add 1–2 findings from your dashboard here, e.g. "The top 3 states by cases per 1,000 were ..." -->
+- Hotspot map highlights the states with cases per 1,000 people.
+- The top 3 states by cases per 1,000 were Delta, Ekiti, Ebonyi
 
 ## Tools
 Power BI Desktop · Power Query · Excel
 
 ## How to use
-1. Download `Improved Malaria Impact Tracker in Nigeria.pbix`.
+1. Download `Malaria Impact Tracker in Nigeria.pbix`.
 2. Open it in Power BI Desktop (free).
 3. Use the Year and State slicers to explore.
 
