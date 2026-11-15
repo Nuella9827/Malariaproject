@@ -1,7 +1,7 @@
 
 # Malaria Impact Tracker in Nigeria (Power BI)
 
-Interactive Power BI dashboard that maps malaria burden across Nigerian states, tracks trends over time and forecasts cases to 2035.
+Interactive Power BI dashboard that maps malaria burden across Nigerian states, tracks trends over years and an average forecast cases to 2035.
 
 ![Malaria Impact Tracker dashboard](Malaria_Impact_Tracker_dashboard.png)
 
@@ -18,7 +18,7 @@ Public-health teams need to know **where** malaria burden is highest and **how**
 2. Built KPI cards: total cases, total deaths, cases per 1,000 people.
 3. Filled map of cases per 1,000 by state to show hotspots.
 4. Line chart of average cases by year to show the trend.
-5. Power BI forecast to 2035 with a confidence interval.
+5. Power BI average forecast to 2035 with a confidence interval.
 6. Year and State slicers for interactive filtering.
 
 ## Key results
